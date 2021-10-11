@@ -1,0 +1,18 @@
+2021-05-25 17:04:17,227 INFO    MainThread:16436 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-25 17:04:17,227 INFO    MainThread:16436 [wandb_setup.py:_flush():69] setting login settings: {'anonymous': 'allow'}
+2021-05-25 17:04:17,227 INFO    MainThread:16436 [wandb_init.py:_log_setup():336] Logging user logs to C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210525_170417-1jfzmdgp\logs\debug.log
+2021-05-25 17:04:17,228 INFO    MainThread:16436 [wandb_init.py:_log_setup():337] Logging internal logs to C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210525_170417-1jfzmdgp\logs\debug-internal.log
+2021-05-25 17:04:17,228 INFO    MainThread:16436 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000013550D287C8>
+2021-05-25 17:04:17,229 INFO    MainThread:16436 [wandb_init.py:init():369] calling init triggers
+2021-05-25 17:04:17,229 INFO    MainThread:16436 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-25 17:04:17,229 INFO    MainThread:16436 [wandb_init.py:init():418] starting backend
+2021-05-25 17:04:17,229 INFO    MainThread:16436 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2021-05-25 17:04:17,243 INFO    MainThread:16436 [backend.py:ensure_launched():132] starting backend process...
+2021-05-25 17:04:17,345 INFO    MainThread:16436 [backend.py:ensure_launched():137] started backend process with pid: 17356
+2021-05-25 17:04:17,346 INFO    MainThread:16436 [wandb_init.py:init():423] backend started and connected
+2021-05-25 17:04:17,347 INFO    MainThread:16436 [wandb_init.py:init():465] updated telemetry
+2021-05-25 17:04:17,348 INFO    MainThread:16436 [wandb_init.py:init():484] communicating current version
+2021-05-25 17:04:19,068 INFO    MainThread:16436 [wandb_init.py:init():489] got version response 
+2021-05-25 17:04:19,068 INFO    MainThread:16436 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2021-05-25 17:04:19,381 INFO    MainThread:16436 [wandb_init.py:init():522] starting run threads in backend

@@ -1,0 +1,85 @@
+package drone;
+
+import de.yadrone.base.IARDrone;
+import de.yadrone.base.command.CommandManager;
+
+public class drone {
+
+	private final String ARRANCAR_COMUNICACION = "arrancar_comunicacion";
+	private final String ATERRIZAR = "aterrizar";
+	private final String DESPEGAR = "despegar";
+	private final String SEGUIR_RECTO = "seguir_recto";
+	private final String GIRAR_DERECHA = "girar_derecha";
+	private final String GIRAR_IZQUIERDA= "girar_izquierda";
+	private final String POSICION_ACTUAL = "posicion_actual";
+	private final String ORIENTACION_ACTUAL = "orientacion_actual";
+	private final String SACAR_IMAGEN = "sacar_imagen";
+	private final String OK = "ok";
+	private final String NOK = "nok";
+	private final int time = 1;//s
+	private final int speed = 4;//m/s
+
+	private IARDrone drone = null;
+	private CommandManager cmd = null;
+	private double[] posicion;
+	private int orientacionYaw;
+	
+	public drone() {
+		/**
+		drone = new ARDrone();
+		drone.start();
+		cmd = drone.getCommandManager();
+		cmd.setOutdoor(false, false);
+		speed = 4; // Preguntar Jesús como poner 4 m/s
+		drone.setSpeed(speed);
+		time = 1
+	 **/
+	posicion = new double[2];
+	orientacionYaw = 0;
+	System.out.println("Activada conexión con drone..");
+	}
+	public void despegar() {
+		System.out.println("Despegando drone...");
+		//cmd.takeOff();
+		//cmd.waitFor(2000);
+		//cmd.hover();
+	}
+	public void aterrizar() {
+		System.out.println("Aterrizando y parando funcionamiento..");
+		//cmd.landing();
+	}
+	public void seguirRecto() {
+		System.out.println("Avanzando...");
+		//cmd.forward(speed).doFor(1000);
+		recalcularPosicion();
+	}
+	public void yawDerecha() {
+		System.out.println("Girando a la derecha 15 grados...");
+		recalcularOrientacion(15);
+		
+	}
+	public void yawIzquierda() {
+		System.out.println("Girando a la izquierda 15 grados...");
+		recalcularOrientacion(-15);
+	}
+	public void sacarImagen() {
+		System.out.println("Grabando imagen en carpeta...");
+	}
+	public double[] posicionActual() {
+		return posicion;
+	}
+	public double orientacionActual() {
+		return Math.toRadians(orientacionYaw);
+	}
+	private void recalcularPosicion() {
+		posicion[0] = posicion[0] + Math.cos(Math.toRadians(orientacionYaw)) * 4;
+		posicion[1] = posicion[1] + Math.sin(Math.toRadians(orientacionYaw))* 4;
+	}
+	private void recalcularOrientacion(Integer angulo) {
+		orientacionYaw = orientacionYaw + angulo;
+	}
+	public void stop() {
+		//cmd.stop();
+	}
+
+}

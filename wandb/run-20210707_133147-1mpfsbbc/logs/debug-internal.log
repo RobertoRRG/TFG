@@ -1,0 +1,122 @@
+2021-07-07 13:31:48,710 INFO    MainThread:816 [internal.py:wandb_internal():91] W&B internal server running at pid: 816, started at: 2021-07-07 13:31:48.701514
+2021-07-07 13:31:48,713 INFO    WriterThread:816 [datastore.py:open_for_write():77] open: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\run-1mpfsbbc.wandb
+2021-07-07 13:31:48,713 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: check_version
+2021-07-07 13:31:48,716 DEBUG   SenderThread:816 [sender.py:send():176] send: header
+2021-07-07 13:31:48,716 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: check_version
+2021-07-07 13:31:48,830 DEBUG   SenderThread:816 [sender.py:send():176] send: run
+2021-07-07 13:31:49,272 INFO    SenderThread:816 [dir_watcher.py:__init__():168] watching files in: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files
+2021-07-07 13:31:49,272 INFO    SenderThread:816 [sender.py:_start_run_threads():699] run started: 1mpfsbbc with start time 1625657507
+2021-07-07 13:31:49,272 DEBUG   SenderThread:816 [sender.py:send():176] send: summary
+2021-07-07 13:31:49,273 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: run_start
+2021-07-07 13:31:49,276 INFO    SenderThread:816 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-07-07 13:31:50,275 INFO    Thread-12 :816 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\wandb-summary.json
+2021-07-07 13:31:52,122 DEBUG   HandlerThread:816 [meta.py:__init__():39] meta init
+2021-07-07 13:31:52,122 DEBUG   HandlerThread:816 [meta.py:__init__():53] meta init done
+2021-07-07 13:31:52,122 DEBUG   HandlerThread:816 [meta.py:probe():210] probe
+2021-07-07 13:31:52,129 DEBUG   HandlerThread:816 [meta.py:_setup_git():200] setup git
+2021-07-07 13:31:52,237 DEBUG   HandlerThread:816 [meta.py:_setup_git():207] setup git done
+2021-07-07 13:31:52,237 DEBUG   HandlerThread:816 [meta.py:_save_pip():57] save pip
+2021-07-07 13:31:52,238 DEBUG   HandlerThread:816 [meta.py:_save_pip():71] save pip done
+2021-07-07 13:31:52,239 DEBUG   HandlerThread:816 [meta.py:_save_conda():78] save conda
+2021-07-07 13:31:52,276 INFO    Thread-12 :816 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\conda-environment.yaml
+2021-07-07 13:31:52,278 INFO    Thread-12 :816 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\requirements.txt
+2021-07-07 13:31:55,279 INFO    Thread-12 :816 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\output.log
+2021-07-07 13:31:57,078 DEBUG   HandlerThread:816 [meta.py:_save_conda():86] save conda done
+2021-07-07 13:31:57,078 DEBUG   HandlerThread:816 [meta.py:probe():252] probe done
+2021-07-07 13:31:57,082 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:31:57,083 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:31:57,292 INFO    Thread-12 :816 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\conda-environment.yaml
+2021-07-07 13:31:57,292 INFO    Thread-12 :816 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\wandb-metadata.json
+2021-07-07 13:31:57,363 DEBUG   SenderThread:816 [sender.py:send():176] send: files
+2021-07-07 13:31:57,363 INFO    SenderThread:816 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-07-07 13:31:58,285 INFO    Thread-17 :816 [upload_job.py:push():133] Uploaded file C:\Users\ROBERT~1\AppData\Local\Temp\tmpxrfkf_ixwandb\1amgxrly-wandb-metadata.json
+2021-07-07 13:32:12,364 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:32:12,364 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:32:21,014 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:32:27,552 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:32:27,552 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:32:42,764 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:32:42,764 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:32:51,845 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:32:57,954 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:32:57,954 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:33:13,165 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:33:13,165 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:33:22,702 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:33:28,363 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:33:28,363 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:33:43,606 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:33:43,606 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:33:53,571 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:33:58,795 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:33:58,796 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:34:14,001 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:34:14,001 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:34:24,484 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:34:29,262 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:34:29,262 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:34:44,480 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:34:44,480 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:34:55,333 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:34:59,677 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:34:59,678 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:35:14,879 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:35:14,879 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:35:26,169 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:35:30,102 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:35:30,102 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:35:45,300 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:35:45,300 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:35:57,065 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:36:00,526 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:36:00,526 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:36:15,717 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:36:15,718 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:36:27,936 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:36:30,910 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:36:30,910 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:36:46,103 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:36:46,103 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:36:58,767 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:37:01,296 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:37:01,297 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:37:16,497 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:37:16,497 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:37:29,672 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:37:31,689 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:37:31,689 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:37:46,899 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:37:46,899 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:38:00,608 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:38:02,090 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:38:02,090 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:38:17,281 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:38:17,281 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:38:31,475 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:38:32,473 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:38:32,473 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:38:47,666 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:38:47,666 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:39:02,314 DEBUG   SenderThread:816 [sender.py:send():176] send: stats
+2021-07-07 13:39:02,882 DEBUG   HandlerThread:816 [handler.py:handle_request():121] handle_request: stop_status
+2021-07-07 13:39:02,882 DEBUG   SenderThread:816 [sender.py:send_request():186] send_request: stop_status
+2021-07-07 13:39:18,011 WARNING MainThread:816 [internal.py:is_dead():367] Internal process exiting, parent pid 15472 disappeared
+2021-07-07 13:39:18,012 ERROR   MainThread:816 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-07-07 13:39:18,095 INFO    HandlerThread:816 [handler.py:finish():632] shutting down handler
+2021-07-07 13:39:18,095 INFO    SenderThread:816 [sender.py:finish():925] shutting down sender
+2021-07-07 13:39:18,095 INFO    SenderThread:816 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-07-07 13:39:18,325 INFO    WriterThread:816 [datastore.py:close():258] close: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\run-1mpfsbbc.wandb
+2021-07-07 13:39:18,555 INFO    SenderThread:816 [dir_watcher.py:finish():312] scan: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files
+2021-07-07 13:39:18,556 INFO    SenderThread:816 [dir_watcher.py:finish():318] scan save: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\conda-environment.yaml conda-environment.yaml
+2021-07-07 13:39:18,556 INFO    SenderThread:816 [dir_watcher.py:finish():318] scan save: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\config.yaml config.yaml
+2021-07-07 13:39:18,556 INFO    SenderThread:816 [dir_watcher.py:finish():318] scan save: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\output.log output.log
+2021-07-07 13:39:18,561 INFO    SenderThread:816 [dir_watcher.py:finish():318] scan save: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\requirements.txt requirements.txt
+2021-07-07 13:39:18,561 INFO    SenderThread:816 [dir_watcher.py:finish():318] scan save: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\wandb-metadata.json wandb-metadata.json
+2021-07-07 13:39:18,561 INFO    SenderThread:816 [dir_watcher.py:finish():318] scan save: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\wandb-summary.json wandb-summary.json
+2021-07-07 13:39:18,561 INFO    SenderThread:816 [file_pusher.py:finish():176] shutting down file pusher
+2021-07-07 13:39:18,561 INFO    SenderThread:816 [file_pusher.py:join():181] waiting for file pusher
+2021-07-07 13:39:19,236 INFO    Thread-20 :816 [upload_job.py:push():133] Uploaded file C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\requirements.txt
+2021-07-07 13:39:19,243 INFO    Thread-18 :816 [upload_job.py:push():133] Uploaded file C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\conda-environment.yaml
+2021-07-07 13:39:19,271 INFO    Thread-21 :816 [upload_job.py:push():133] Uploaded file C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\wandb-summary.json
+2021-07-07 13:39:19,275 INFO    Thread-19 :816 [upload_job.py:push():133] Uploaded file C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210707_133147-1mpfsbbc\files\config.yaml
+2021-07-07 13:39:19,715 INFO    MainThread:816 [internal.py:handle_exit():78] Internal process exited

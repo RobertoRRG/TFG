@@ -1,0 +1,76 @@
+package drone;
+
+import de.yadrone.base.IARDrone;
+import de.yadrone.base.command.CommandManager;
+import de.yadrone.base.ARDrone;
+import de.yadrone.base.IARDrone;
+import de.yadrone.base.command.CommandManager;
+
+public class drone {
+
+
+	private final int time = 1;//s
+	private final int speed = 4;//m/s
+	private final int grados = 15; //Grados
+
+	private IARDrone drone = null;
+	private CommandManager cmd = null;
+	private double[] posicion;
+	private int orientacionYaw;
+
+	public drone() {
+		cmd.setOutdoor(false, false);
+		drone = new ARDrone();
+		drone.start();
+		cmd = drone.getCommandManager();
+
+		drone.setSpeed(speed);
+				posicion = new double[2];
+		orientacionYaw = 0;
+		System.out.println("Activada conexión con drone..");
+	}
+	public void despegar() {
+		System.out.println("Despegando drone...");
+		//cmd.takeOff();
+		//cmd.waitFor(2000);
+		//cmd.hover();
+	}
+	public void aterrizar() {
+		System.out.println("Aterrizando y parando funcionamiento..");
+		//cmd.landing();
+	}
+	public void seguirRecto() {
+		System.out.println("Avanzando...");
+		//cmd.forward(speed).doFor(1000);
+		recalcularPosicion();
+	}
+	public void yawDerecha() {
+		System.out.println("Girando a la derecha 15 grados...");
+		recalcularOrientacion(grados);
+
+	}
+	public void yawIzquierda() {
+		System.out.println("Girando a la izquierda 15 grados...");
+		recalcularOrientacion(-grados);
+	}
+	public void sacarImagen() {
+		System.out.println("Grabando imagen en carpeta...");
+	}
+	public double[] posicionActual() {
+		return posicion;
+	}
+	public double orientacionActual() {
+		return Math.toRadians(orientacionYaw);
+	}
+	private void recalcularPosicion() {
+		posicion[0] = posicion[0] + Math.cos(Math.toRadians(orientacionYaw)) * (speed*time);
+		posicion[1] = posicion[1] + Math.sin(Math.toRadians(orientacionYaw)) * (speed*time);
+	}
+	private void recalcularOrientacion(Integer angulo) {
+		orientacionYaw = orientacionYaw + angulo;
+	}
+	public void stop() {
+		//cmd.stop();
+	}
+
+}

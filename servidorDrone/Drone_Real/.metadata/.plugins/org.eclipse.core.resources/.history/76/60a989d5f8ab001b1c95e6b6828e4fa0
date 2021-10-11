@@ -1,0 +1,14 @@
+package drone;
+
+public class drone {
+
+	private static final String ARRANCAR_COMUNICACION = "arrancar_comunicacion";
+	private static final String ATERRIZAR = "aterrizar";
+	private static final String DESPEGAR = "despegar";
+	private static final String SEGUIR_RECTO = "seguir_recto";
+	private static final String GIRAR_DERECHA = "girar_derecha";
+	private static final String GIRAR_IZQUIERDA= "girar_izquierda";
+	private static final String POSICION_ACTUAL = "posicion_actual";
+	private static final String ORIENTACION_ACTUAL = "orientacion_actual";
+	private static final String SACAR_IMAGEN = "sacar_imagen";
+}

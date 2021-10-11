@@ -1,0 +1,27 @@
+package drone;
+
+import de.yadrone.base.IARDrone;
+import de.yadrone.base.command.CommandManager;
+
+public class drone {
+
+	private final String ARRANCAR_COMUNICACION = "arrancar_comunicacion";
+	private final String ATERRIZAR = "aterrizar";
+	private final String DESPEGAR = "despegar";
+	private final String SEGUIR_RECTO = "seguir_recto";
+	private final String GIRAR_DERECHA = "girar_derecha";
+	private final String GIRAR_IZQUIERDA= "girar_izquierda";
+	private final String POSICION_ACTUAL = "posicion_actual";
+	private final String ORIENTACION_ACTUAL = "orientacion_actual";
+	private final String SACAR_IMAGEN = "sacar_imagen";
+	private final String OK = "ok";
+	private final String NOK = "nok";
+	private final int time = 1;//s
+	private final int speed = 4;//m/s
+
+	private IARDrone drone = null;
+	private CommandManager cmd = null;
+	private double[] posicion;
+	private int orientacionYaw;
+
+}

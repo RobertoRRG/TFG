@@ -1,0 +1,159 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:11
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-arrow-pointing-upper-left-corner:before { content: "\f100"; }
+.flaticon-arrow-up-curve:before { content: "\f101"; }
+.flaticon-arrows-in-right-angle:before { content: "\f102"; }
+.flaticon-back-angle-arrow-in-square-interface-button:before { content: "\f103"; }
+.flaticon-back-left-arrow-in-square-button:before { content: "\f104"; }
+.flaticon-curved-arrow-pointing-down:before { content: "\f105"; }
+.flaticon-curved-arrow-pointing-to-right:before { content: "\f106"; }
+.flaticon-curved-arrow-pointing-to-right-1:before { content: "\f107"; }
+.flaticon-curved-returing-arrow:before { content: "\f108"; }
+.flaticon-down-angle-arrow-in-circular-filled-button:before { content: "\f109"; }
+.flaticon-down-arrow:before { content: "\f10a"; }
+.flaticon-down-arrow-in-circular-filled-button:before { content: "\f10b"; }
+.flaticon-down-arrow-in-square-button:before { content: "\f10c"; }
+.flaticon-down-arrow-in-square-filled-button:before { content: "\f10d"; }
+.flaticon-down-arrow-of-angle:before { content: "\f10e"; }
+.flaticon-down-curved-arrow:before { content: "\f10f"; }
+.flaticon-down-left-arrow:before { content: "\f110"; }
+.flaticon-down-left-arrow-circular-button:before { content: "\f111"; }
+.flaticon-down-left-arrow-in-circular-button:before { content: "\f112"; }
+.flaticon-down-left-arrow-in-square-filled-button:before { content: "\f113"; }
+.flaticon-down-right-arrow:before { content: "\f114"; }
+.flaticon-down-right-arrow-circular-filled-button:before { content: "\f115"; }
+.flaticon-down-right-arrow-square-button:before { content: "\f116"; }
+.flaticon-download-arrow-angle-in-square-filled-button:before { content: "\f117"; }
+.flaticon-fast-forward-double-right-arrows:before { content: "\f118"; }
+.flaticon-left-arrow:before { content: "\f119"; }
+.flaticon-left-arrow-angle:before { content: "\f11a"; }
+.flaticon-left-arrow-angle-in-circular-button:before { content: "\f11b"; }
+.flaticon-left-arrow-in-circular-button:before { content: "\f11c"; }
+.flaticon-left-back-arrow-in-filled-square-button:before { content: "\f11d"; }
+.flaticon-left-return-arrow:before { content: "\f11e"; }
+.flaticon-rewind-double-arrows-angles:before { content: "\f11f"; }
+.flaticon-right-and-down-arrows-of-straight-angle:before { content: "\f120"; }
+.flaticon-right-arrow-angle:before { content: "\f121"; }
+.flaticon-right-arrow-angle-in-circular-filled-button:before { content: "\f122"; }
+.flaticon-right-arrow-angle-in-filled-square-button:before { content: "\f123"; }
+.flaticon-right-arrow-in-filled-circular-button:before { content: "\f124"; }
+.flaticon-right-arrow-in-square-filled-button:before { content: "\f125"; }
+.flaticon-right-arrow-in-square-filled-button-1:before { content: "\f126"; }
+.flaticon-right-down-angle-arrow-in-filled-circular-button:before { content: "\f127"; }
+.flaticon-right-straight-arrow:before { content: "\f128"; }
+.flaticon-two-arrows-pointing-up:before { content: "\f129"; }
+.flaticon-two-down-arrows:before { content: "\f12a"; }
+.flaticon-two-united-arrows-in-straight-angle-pointing-left-and-down:before { content: "\f12b"; }
+.flaticon-two-united-arrows-in-straight-angle-pointing-left-and-up:before { content: "\f12c"; }
+.flaticon-up-arrow:before { content: "\f12d"; }
+.flaticon-up-arrow-angle:before { content: "\f12e"; }
+.flaticon-up-arrow-angle-in-circular-filled-button:before { content: "\f12f"; }
+.flaticon-up-arrow-angle-in-square-button:before { content: "\f130"; }
+.flaticon-up-arrow-in-circular-button:before { content: "\f131"; }
+.flaticon-up-arrow-in-filled-square-button:before { content: "\f132"; }
+.flaticon-up-arrow-square-filled-button:before { content: "\f133"; }
+.flaticon-up-curved-arrow:before { content: "\f134"; }
+.flaticon-up-left-arrow-circular-button:before { content: "\f135"; }
+.flaticon-upper-left-arrow-angle-in-circular-filled-button:before { content: "\f136"; }
+.flaticon-upper-left-arrow-in-filled-square-button:before { content: "\f137"; }
+.flaticon-upper-right-arrow:before { content: "\f138"; }
+.flaticon-upper-right-arrow-angle-in-circular-filled-button:before { content: "\f139"; }
+.flaticon-upper-right-arrow-in-circular-button:before { content: "\f13a"; }
+.flaticon-upper-right-arrow-in-filled-square-button:before { content: "\f13b"; }
+    
+    $font-Flaticon-arrow-pointing-upper-left-corner: "\f100";
+    $font-Flaticon-arrow-up-curve: "\f101";
+    $font-Flaticon-arrows-in-right-angle: "\f102";
+    $font-Flaticon-back-angle-arrow-in-square-interface-button: "\f103";
+    $font-Flaticon-back-left-arrow-in-square-button: "\f104";
+    $font-Flaticon-curved-arrow-pointing-down: "\f105";
+    $font-Flaticon-curved-arrow-pointing-to-right: "\f106";
+    $font-Flaticon-curved-arrow-pointing-to-right-1: "\f107";
+    $font-Flaticon-curved-returing-arrow: "\f108";
+    $font-Flaticon-down-angle-arrow-in-circular-filled-button: "\f109";
+    $font-Flaticon-down-arrow: "\f10a";
+    $font-Flaticon-down-arrow-in-circular-filled-button: "\f10b";
+    $font-Flaticon-down-arrow-in-square-button: "\f10c";
+    $font-Flaticon-down-arrow-in-square-filled-button: "\f10d";
+    $font-Flaticon-down-arrow-of-angle: "\f10e";
+    $font-Flaticon-down-curved-arrow: "\f10f";
+    $font-Flaticon-down-left-arrow: "\f110";
+    $font-Flaticon-down-left-arrow-circular-button: "\f111";
+    $font-Flaticon-down-left-arrow-in-circular-button: "\f112";
+    $font-Flaticon-down-left-arrow-in-square-filled-button: "\f113";
+    $font-Flaticon-down-right-arrow: "\f114";
+    $font-Flaticon-down-right-arrow-circular-filled-button: "\f115";
+    $font-Flaticon-down-right-arrow-square-button: "\f116";
+    $font-Flaticon-download-arrow-angle-in-square-filled-button: "\f117";
+    $font-Flaticon-fast-forward-double-right-arrows: "\f118";
+    $font-Flaticon-left-arrow: "\f119";
+    $font-Flaticon-left-arrow-angle: "\f11a";
+    $font-Flaticon-left-arrow-angle-in-circular-button: "\f11b";
+    $font-Flaticon-left-arrow-in-circular-button: "\f11c";
+    $font-Flaticon-left-back-arrow-in-filled-square-button: "\f11d";
+    $font-Flaticon-left-return-arrow: "\f11e";
+    $font-Flaticon-rewind-double-arrows-angles: "\f11f";
+    $font-Flaticon-right-and-down-arrows-of-straight-angle: "\f120";
+    $font-Flaticon-right-arrow-angle: "\f121";
+    $font-Flaticon-right-arrow-angle-in-circular-filled-button: "\f122";
+    $font-Flaticon-right-arrow-angle-in-filled-square-button: "\f123";
+    $font-Flaticon-right-arrow-in-filled-circular-button: "\f124";
+    $font-Flaticon-right-arrow-in-square-filled-button: "\f125";
+    $font-Flaticon-right-arrow-in-square-filled-button-1: "\f126";
+    $font-Flaticon-right-down-angle-arrow-in-filled-circular-button: "\f127";
+    $font-Flaticon-right-straight-arrow: "\f128";
+    $font-Flaticon-two-arrows-pointing-up: "\f129";
+    $font-Flaticon-two-down-arrows: "\f12a";
+    $font-Flaticon-two-united-arrows-in-straight-angle-pointing-left-and-down: "\f12b";
+    $font-Flaticon-two-united-arrows-in-straight-angle-pointing-left-and-up: "\f12c";
+    $font-Flaticon-up-arrow: "\f12d";
+    $font-Flaticon-up-arrow-angle: "\f12e";
+    $font-Flaticon-up-arrow-angle-in-circular-filled-button: "\f12f";
+    $font-Flaticon-up-arrow-angle-in-square-button: "\f130";
+    $font-Flaticon-up-arrow-in-circular-button: "\f131";
+    $font-Flaticon-up-arrow-in-filled-square-button: "\f132";
+    $font-Flaticon-up-arrow-square-filled-button: "\f133";
+    $font-Flaticon-up-curved-arrow: "\f134";
+    $font-Flaticon-up-left-arrow-circular-button: "\f135";
+    $font-Flaticon-upper-left-arrow-angle-in-circular-filled-button: "\f136";
+    $font-Flaticon-upper-left-arrow-in-filled-square-button: "\f137";
+    $font-Flaticon-upper-right-arrow: "\f138";
+    $font-Flaticon-upper-right-arrow-angle-in-circular-filled-button: "\f139";
+    $font-Flaticon-upper-right-arrow-in-circular-button: "\f13a";
+    $font-Flaticon-upper-right-arrow-in-filled-square-button: "\f13b";

@@ -1,0 +1,64 @@
+2021-06-04 11:58:44,848 INFO    MainThread:24040 [internal.py:wandb_internal():91] W&B internal server running at pid: 24040, started at: 2021-06-04 11:58:44.842106
+2021-06-04 11:58:44,850 DEBUG   HandlerThread:24040 [handler.py:handle_request():121] handle_request: check_version
+2021-06-04 11:58:44,850 INFO    WriterThread:24040 [datastore.py:open_for_write():77] open: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\run-2eb2tnd1.wandb
+2021-06-04 11:58:44,852 DEBUG   SenderThread:24040 [sender.py:send():176] send: header
+2021-06-04 11:58:44,852 DEBUG   SenderThread:24040 [sender.py:send_request():186] send_request: check_version
+2021-06-04 11:58:45,015 DEBUG   SenderThread:24040 [sender.py:send():176] send: run
+2021-06-04 11:58:45,035 DEBUG   SenderThread:24040 [git.py:repo():33] git repository is invalid
+2021-06-04 11:58:45,272 INFO    SenderThread:24040 [dir_watcher.py:__init__():168] watching files in: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files
+2021-06-04 11:58:45,272 INFO    SenderThread:24040 [sender.py:_start_run_threads():699] run started: 2eb2tnd1 with start time 1622800723
+2021-06-04 11:58:45,273 DEBUG   SenderThread:24040 [sender.py:send():176] send: summary
+2021-06-04 11:58:45,273 INFO    SenderThread:24040 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-06-04 11:58:45,275 DEBUG   HandlerThread:24040 [handler.py:handle_request():121] handle_request: run_start
+2021-06-04 11:58:46,275 INFO    Thread-12 :24040 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\wandb-summary.json
+2021-06-04 11:58:47,122 DEBUG   HandlerThread:24040 [meta.py:__init__():39] meta init
+2021-06-04 11:58:47,122 DEBUG   HandlerThread:24040 [meta.py:__init__():53] meta init done
+2021-06-04 11:58:47,122 DEBUG   HandlerThread:24040 [meta.py:probe():210] probe
+2021-06-04 11:58:47,130 DEBUG   HandlerThread:24040 [git.py:repo():33] git repository is invalid
+2021-06-04 11:58:47,131 DEBUG   HandlerThread:24040 [meta.py:_save_pip():57] save pip
+2021-06-04 11:58:47,132 DEBUG   HandlerThread:24040 [meta.py:_save_pip():71] save pip done
+2021-06-04 11:58:47,132 DEBUG   HandlerThread:24040 [meta.py:_save_conda():78] save conda
+2021-06-04 11:58:47,275 INFO    Thread-12 :24040 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\requirements.txt
+2021-06-04 11:58:47,275 INFO    Thread-12 :24040 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\conda-environment.yaml
+2021-06-04 11:58:50,276 INFO    Thread-12 :24040 [dir_watcher.py:_on_file_modified():229] file/dir modified: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\conda-environment.yaml
+2021-06-04 11:58:50,388 DEBUG   HandlerThread:24040 [meta.py:_save_conda():86] save conda done
+2021-06-04 11:58:50,388 DEBUG   HandlerThread:24040 [meta.py:probe():252] probe done
+2021-06-04 11:58:50,391 DEBUG   HandlerThread:24040 [handler.py:handle_request():121] handle_request: stop_status
+2021-06-04 11:58:50,391 DEBUG   SenderThread:24040 [sender.py:send_request():186] send_request: stop_status
+2021-06-04 11:58:50,619 DEBUG   SenderThread:24040 [sender.py:send():176] send: files
+2021-06-04 11:58:50,619 INFO    SenderThread:24040 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-06-04 11:58:51,237 INFO    Thread-15 :24040 [upload_job.py:push():133] Uploaded file C:\Users\ROBERT~1\AppData\Local\Temp\tmpj4wt9kiswandb\pti3i17r-wandb-metadata.json
+2021-06-04 11:58:51,277 INFO    Thread-12 :24040 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\wandb-metadata.json
+2021-06-04 11:58:51,277 INFO    Thread-12 :24040 [dir_watcher.py:_on_file_created():216] file/dir created: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\output.log
+2021-06-04 11:59:05,621 DEBUG   HandlerThread:24040 [handler.py:handle_request():121] handle_request: stop_status
+2021-06-04 11:59:05,621 DEBUG   SenderThread:24040 [sender.py:send_request():186] send_request: stop_status
+2021-06-04 11:59:15,735 DEBUG   SenderThread:24040 [sender.py:send():176] send: stats
+2021-06-04 11:59:20,822 DEBUG   HandlerThread:24040 [handler.py:handle_request():121] handle_request: stop_status
+2021-06-04 11:59:20,822 DEBUG   SenderThread:24040 [sender.py:send_request():186] send_request: stop_status
+2021-06-04 11:59:20,943 DEBUG   HandlerThread:24040 [handler.py:handle_request():121] handle_request: pause
+2021-06-04 11:59:20,944 INFO    HandlerThread:24040 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-06-04 11:59:21,051 DEBUG   SenderThread:24040 [sender.py:send():176] send: stats
+2021-06-04 11:59:36,017 DEBUG   HandlerThread:24040 [handler.py:handle_request():121] handle_request: stop_status
+2021-06-04 11:59:36,017 DEBUG   SenderThread:24040 [sender.py:send_request():186] send_request: stop_status
+2021-06-04 11:59:51,217 DEBUG   HandlerThread:24040 [handler.py:handle_request():121] handle_request: stop_status
+2021-06-04 11:59:51,217 DEBUG   SenderThread:24040 [sender.py:send_request():186] send_request: stop_status
+2021-06-04 12:00:05,898 WARNING MainThread:24040 [internal.py:is_dead():367] Internal process exiting, parent pid 27156 disappeared
+2021-06-04 12:00:05,898 ERROR   MainThread:24040 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-06-04 12:00:06,076 INFO    WriterThread:24040 [datastore.py:close():258] close: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\run-2eb2tnd1.wandb
+2021-06-04 12:00:06,419 INFO    SenderThread:24040 [sender.py:finish():925] shutting down sender
+2021-06-04 12:00:06,419 INFO    SenderThread:24040 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-06-04 12:00:06,419 INFO    HandlerThread:24040 [handler.py:finish():632] shutting down handler
+2021-06-04 12:00:07,317 INFO    SenderThread:24040 [dir_watcher.py:finish():312] scan: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files
+2021-06-04 12:00:07,318 INFO    SenderThread:24040 [dir_watcher.py:finish():318] scan save: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\conda-environment.yaml conda-environment.yaml
+2021-06-04 12:00:07,318 INFO    SenderThread:24040 [dir_watcher.py:finish():318] scan save: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\config.yaml config.yaml
+2021-06-04 12:00:07,318 INFO    SenderThread:24040 [dir_watcher.py:finish():318] scan save: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\output.log output.log
+2021-06-04 12:00:07,321 INFO    SenderThread:24040 [dir_watcher.py:finish():318] scan save: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\requirements.txt requirements.txt
+2021-06-04 12:00:07,324 INFO    SenderThread:24040 [dir_watcher.py:finish():318] scan save: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\wandb-metadata.json wandb-metadata.json
+2021-06-04 12:00:07,324 INFO    SenderThread:24040 [dir_watcher.py:finish():318] scan save: C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\wandb-summary.json wandb-summary.json
+2021-06-04 12:00:07,325 INFO    SenderThread:24040 [file_pusher.py:finish():176] shutting down file pusher
+2021-06-04 12:00:07,325 INFO    SenderThread:24040 [file_pusher.py:join():181] waiting for file pusher
+2021-06-04 12:00:07,910 INFO    Thread-19 :24040 [upload_job.py:push():133] Uploaded file C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\wandb-summary.json
+2021-06-04 12:00:07,912 INFO    Thread-16 :24040 [upload_job.py:push():133] Uploaded file C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\conda-environment.yaml
+2021-06-04 12:00:07,921 INFO    Thread-18 :24040 [upload_job.py:push():133] Uploaded file C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\requirements.txt
+2021-06-04 12:00:07,948 INFO    Thread-17 :24040 [upload_job.py:push():133] Uploaded file C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210604_115843-2eb2tnd1\files\config.yaml
+2021-06-04 12:00:08,484 INFO    MainThread:24040 [internal.py:handle_exit():78] Internal process exited

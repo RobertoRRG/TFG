@@ -1,0 +1,54 @@
+package drone;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
+public class prueba {
+	public static void main(String[] args) {
+		BufferedImage imagen = new BufferedImage(100, 100, BufferedImage.TYPE_INT_RGB);
+		// Hacemos el dibujo
+		Graphics g = imagen.getGraphics();
+		g.setColor(Color.red);
+		g.fillRect(50, 50, 100, 100);
+		g.setColor(Color.green);
+		g.fillRect(0, 0, 50, 50);
+		g.setColor(Color.yellow);
+		g.fillOval(25, 25, 50, 50);
+		makeGray(imagen);
+		try {
+			   ImageIO.write(imagen, "jpg", new File("../foto.jpg"));
+			} catch (IOException e) {
+			   System.out.println("Error de escritura");
+			}
+	}
+	private static void makeGray(BufferedImage img)
+	{
+	    for (int x = 0; x < img.getWidth(); ++x)
+	    for (int y = 0; y < img.getHeight(); ++y)
+	    {
+	        int rgb = img.getRGB(x, y);
+	        int r = (rgb >> 16) & 0xFF;
+	        int g = (rgb >> 8) & 0xFF;
+	        int b = (rgb & 0xFF);
+
+	        // Normalize and gamma correct:
+	        float rr = (float) Math.pow(r / 255.0, 2.2);
+	        float gg = (float) Math.pow(g / 255.0, 2.2);
+	        float bb = (float) Math.pow(b / 255.0, 2.2);
+
+	        // Calculate luminance:
+	        float lum = (float) (0.2126 * rr + 0.7152 * gg + 0.0722 * bb);
+
+	        // Gamma compand and rescale to byte range:
+	        int grayLevel = (int) (255.0 * Math.pow(lum, 1.0 / 2.2));
+	        int gray = (grayLevel << 16) + (grayLevel << 8) + grayLevel; 
+	        img.setRGB(x, y, gray);
+	    }
+	}
+
+}

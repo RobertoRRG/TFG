@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="cct">
+    <file>estructura.jpg</file>
+    <file>camara.png</file>
+    <file>scape_key.png</file>
+    <file>down-arrow.png</file>
+    <file>left-arrow.png</file>
+    <file>letter-a-128.jpg</file>
+    <file>letter-d-128.jpg</file>
+    <file>letter-s-128.jpg</file>
+    <file>letter-w-128.jpg</file>
+    <file>right-straight-arrow.png</file>
+    <file>space_key.png</file>
+    <file>up-arrow.png</file>
+    <file>droneMenu.jpg</file>
+    <file>redNeuronalEntrenamiento.jpeg</file>
+    <file>droneIcono.jpg</file>
+    <file>fondoBlanco.jpeg</file>
+    <file>dronePrincipal.jpg</file>
+  </qresource>
+</RCC>

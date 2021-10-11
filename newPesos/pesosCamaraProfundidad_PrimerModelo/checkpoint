@@ -1,0 +1,2 @@
+model_checkpoint_path: "newPesos.h5f"
+all_model_checkpoint_paths: "newPesos.h5f"

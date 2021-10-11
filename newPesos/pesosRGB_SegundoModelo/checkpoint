@@ -1,0 +1,2 @@
+model_checkpoint_path: "pesosRGB.h5f"
+all_model_checkpoint_paths: "pesosRGB.h5f"

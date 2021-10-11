@@ -1,0 +1,25 @@
+2021-05-26 00:26:22,352 INFO    MainThread:14004 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-26 00:26:22,352 INFO    MainThread:14004 [wandb_setup.py:_flush():69] setting login settings: {'anonymous': 'allow'}
+2021-05-26 00:26:22,353 INFO    MainThread:14004 [wandb_init.py:_log_setup():336] Logging user logs to C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210526_002622-2jcuhaqg\logs\debug.log
+2021-05-26 00:26:22,353 INFO    MainThread:14004 [wandb_init.py:_log_setup():337] Logging internal logs to C:\Users\robertorg\Documentos\UPM\TFG\Aplicacion\wandb\run-20210526_002622-2jcuhaqg\logs\debug-internal.log
+2021-05-26 00:26:22,354 INFO    MainThread:14004 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001410A464288>
+2021-05-26 00:26:22,355 INFO    MainThread:14004 [wandb_init.py:init():369] calling init triggers
+2021-05-26 00:26:22,355 INFO    MainThread:14004 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-26 00:26:22,355 INFO    MainThread:14004 [wandb_init.py:init():418] starting backend
+2021-05-26 00:26:22,356 INFO    MainThread:14004 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=spawn, using: spawn
+2021-05-26 00:26:22,371 INFO    MainThread:14004 [backend.py:ensure_launched():132] starting backend process...
+2021-05-26 00:26:22,420 INFO    MainThread:14004 [backend.py:ensure_launched():137] started backend process with pid: 12556
+2021-05-26 00:26:22,421 INFO    MainThread:14004 [wandb_init.py:init():423] backend started and connected
+2021-05-26 00:26:22,422 INFO    MainThread:14004 [wandb_init.py:init():465] updated telemetry
+2021-05-26 00:26:22,422 INFO    MainThread:14004 [wandb_init.py:init():484] communicating current version
+2021-05-26 00:26:23,285 INFO    MainThread:14004 [wandb_init.py:init():489] got version response 
+2021-05-26 00:26:23,285 INFO    MainThread:14004 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2021-05-26 00:26:23,680 INFO    MainThread:14004 [wandb_init.py:init():522] starting run threads in backend
+2021-05-26 00:26:27,751 INFO    MainThread:14004 [wandb_run.py:_console_start():1565] atexit reg
+2021-05-26 00:26:27,752 INFO    MainThread:14004 [wandb_run.py:_redirect():1412] redirect: SettingsConsole.WRAP
+2021-05-26 00:26:27,753 INFO    MainThread:14004 [wandb_run.py:_redirect():1455] Wrapping output streams.
+2021-05-26 00:26:27,753 INFO    MainThread:14004 [wandb_run.py:_redirect():1479] Redirects installed.
+2021-05-26 00:26:27,753 INFO    MainThread:14004 [wandb_init.py:init():546] run started, returning control to user process
+2021-05-26 00:27:05,495 INFO    MainThread:14004 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-26 00:27:05,495 INFO    MainThread:14004 [jupyter.py:save_ipynb():265] not saving jupyter notebook
