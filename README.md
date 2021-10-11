@@ -1,4 +1,4 @@
-"# Trabajo de Fin de Grado. 
-Trabajo final del grado de Ingenier韆 Telem醫ica.
+# Trabajo de Fin de Grado. 
+Trabajo final del grado de Ingenier铆a Telem谩tica.
 
-Sistema de identificaci髇 y clasificaci髇 de objetos tridimensionales para la utilizaci髇 de drones para la agricultura de precisi髇 mediante Deep Learning" 
+Sistema de identificaci贸n y clasificaci贸n de objetos tridimensionales para la utilizaci贸n de drones para la agricultura de precisi贸n mediante Deep Learning
